@@ -71,7 +71,7 @@ html {
 :root {
   --body-typeface: "Raleway", sans-serif;
   --heading-typeface: "Raleway", Bold 700;
-  --project-title-typeface: "Raleway", SemiBold 600;
+  --project-title-typeface: "Raleway", Bold;
   --background-color: #f8f8f2;
   --background-color-about: #f8f8f2;
   --background-color-footer: #ff8f8f2;
@@ -89,8 +89,8 @@ html {
   --overlay-color: #9a3324;
   --overlay-title-color: #f8f8f2;
   --overlay-description-color: #f8f8f2;
-  --hyperlink-color: #ebedf0;
-  --hyperlink-alternate-color: #ebedf0;
+  --hyperlink-color: #9a3324;
+  --hyperlink-alternate-color: #9a3324;
   --hover-color: #111;
   --visited-color: #f8f8f2;
   --project-title-color: #000000;
@@ -264,6 +264,7 @@ a:active {
   background-size: 15%;
   background-repeat: no-repeat;
   background-position: center center;
+  color: #f8f8f2;
 }
 
 .heart {
