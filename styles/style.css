@@ -89,8 +89,8 @@ html {
   --overlay-color: #7a6855;
   --overlay-title-color: #f8f8f2;
   --overlay-description-color: #f8f8f2;
-  --hyperlink-color: #9a3324;
-  --hyperlink-alternate-color: #9a3324;
+  --hyperlink-color: #f8f8f2;
+  --hyperlink-alternate-color: #f8f8f2;
   --hover-color: #7a6855;
   --visited-color: #9a3324;
   --project-title-color: #9a3324;
@@ -264,7 +264,6 @@ a:active {
   background-size: 15%;
   background-repeat: no-repeat;
   background-position: center center;
-  color: #f8f8f2;
 }
 
 .heart {
