@@ -76,7 +76,7 @@ html {
   --background-color-about: #f8f8f2;
   --background-color-footer: #f8f8f2;
   --alt-background-color: #000000;
-  --background-color-holding-page: rgba(82, 0, 255, 0.6);
+  --background-color-holding-page: #9a3324;
   --h1-color: #f8f8f2;
   --h2-color: #9a3324;
   --h3-color: #9a3324;
@@ -86,13 +86,13 @@ html {
   --primary-text-color: #454038;
   --holding-page-title-color: #f8f8f2;
   --accent-color: #9a3324;
-  --overlay-color: #7a6855;
+  --overlay-color: #9a3324;
   --overlay-title-color: #f8f8f2;
   --overlay-description-color: #f8f8f2;
   --hyperlink-color: #f8f8f2;
   --hyperlink-alternate-color: #f8f8f2;
-  --hover-color: #7a6855;
-  --visited-color: #9a3324;
+  --hover-color: #f7a23a;
+  --visited-color: #f7a23a;
   --project-title-color: #9a3324;
   --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: #9a3324;
@@ -463,7 +463,7 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 100vh;
+  min-height: 70vh;
   background: var(--background-color-footer);
   padding: 1rem;
 }
@@ -651,7 +651,7 @@ a:active {
 }
 
 .error-page-title {
-  color: var(--accent-color);
+  color: #f8f8f2;
 }
 
 /*
